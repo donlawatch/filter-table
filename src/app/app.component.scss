@@ -1,0 +1,21 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input, table {
+        width: fit-content;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin: 10px;
+    }
+    
+    th, td {
+        border: 1px solid black;
+    }
+
+}
